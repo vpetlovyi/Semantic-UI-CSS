@@ -60,7 +60,6 @@ input[type="password"] {
  */
 
 html {
-  line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -120,10 +119,6 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-
-figure {
-  margin: 1em 40px;
-}
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -554,111 +549,18 @@ template {
              Page
 *******************************/
 
-html,
-body {
-  height: 100%;
-}
-
-html {
-  font-size: 14px;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  min-width: 320px;
-  background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
-  font-smoothing: antialiased;
-}
-
 /*******************************
              Headers
 *******************************/
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 1.28571429em;
-  margin: calc(2rem -  0.14285714em ) 0em 1rem;
-  font-weight: bold;
-  padding: 0em;
-}
-
-h1 {
-  min-height: 1rem;
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.71428571rem;
-}
-
-h3 {
-  font-size: 1.28571429rem;
-}
-
-h4 {
-  font-size: 1.07142857rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child {
-  margin-top: 0em;
-}
-
-h1:last-child,
-h2:last-child,
-h3:last-child,
-h4:last-child,
-h5:last-child {
-  margin-bottom: 0em;
-}
 
 /*******************************
              Text
 *******************************/
 
-p {
-  margin: 0em 0em 1em;
-  line-height: 1.4285em;
-}
-
-p:first-child {
-  margin-top: 0em;
-}
-
-p:last-child {
-  margin-bottom: 0em;
-}
-
 /*-------------------
         Links
 --------------------*/
-
-a {
-  color: #4183C4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #1e70bf;
-  text-decoration: none;
-}
 
 /*******************************
          Scrollbars
@@ -7505,26 +7407,8 @@ a.ui.inverted.grey.header:hover {
 }
 
 i.icon {
-  display: inline-block;
-  opacity: 1;
-  margin: 0em 0.25rem 0em 0em;
-  width: 1.18em;
-  height: 1em;
   font-family: 'Icons';
   font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  text-align: center;
-  speak: none;
-  font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-i.icon:before {
-  background: none !important;
 }
 
 /*******************************
